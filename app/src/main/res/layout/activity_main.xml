@@ -70,8 +70,13 @@
 
     <TextView
         android:id="@+id/textViewId1"
-        android:layout_width="381dp"
-        android:layout_height="63dp"
+        android:layout_width="372dp"
+        android:layout_height="78dp"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
         android:background="@android:color/holo_blue_dark"
         android:padding="10dp"
         android:paddingBottom="10dp"
@@ -84,17 +89,14 @@
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
-        tools:ignore="MissingConstraints"
-        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintVertical_bias="0.289" />
+        app:layout_constraintVertical_bias="0.293"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="108dp" />
 
     <Button
         android:id="@+id/howOldButtonId"
@@ -104,7 +106,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="Button"
+        android:text="@string/descobrirIdade"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     int inputValue = Integer.parseInt(textInput);
                     int finalResult = inputValue * 7;
 
-                    result.setText("A idade do cachorro é : "+ finalResult + "anos");
+                    result.setText("A idade do cachorro em anos humanos é : "+ finalResult + " anos.");
                 }
             }
         });
